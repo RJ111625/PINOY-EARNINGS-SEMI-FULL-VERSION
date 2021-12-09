@@ -23,4 +23,3 @@ if (stat == "ban") {
     on_result: "CH1"
   })
 }
-

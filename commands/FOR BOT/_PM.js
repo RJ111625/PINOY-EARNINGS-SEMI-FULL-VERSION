@@ -15,4 +15,3 @@ chat_id: tgid,
 text: "*💬 Message From Admin\n➖➖➖➖➖➖➖➖➖➖➖➖\n➡️ Admin Messsage = "+message+"*",
 parse_mode: "markdown" })
 Bot.sendMessage("*📞 Message Sended To User = "+tgid+"*")
-

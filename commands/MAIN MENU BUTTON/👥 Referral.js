@@ -9,7 +9,6 @@
   aliases: 
 CMD*/
 
-
 let stat = Bot.getProperty(""+user.telegramid+"");
 
 if (stat=="ban"){

@@ -1,5 +1,5 @@
 /*CMD
-  command: 7old
+  command: 3old
   help: 
   need_reply: 
   auto_retry_time: 
@@ -36,4 +36,3 @@ if (refList.length < 3) {
     }
   }
 }
-

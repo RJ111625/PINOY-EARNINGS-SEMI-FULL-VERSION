@@ -13,7 +13,7 @@ function canRun(){
 var lol = User.getProperty("7old");
 if(!lol){ return true }
 var minutes = (Date.now() - lol) /1000/60;
-var minutes_in_day = 60 * 420
+var minutes_in_day = 60 * 72
 var next = minutes_in_day - minutes
 var wait_hours = Math.floor(next / 60)
 next -= wait_hours * 60
@@ -27,8 +27,4 @@ Bot.runCommand("menu")
   return true;
  }
 if(!canRun()){ return }
-Bot.runCommand("7old")
-
-
-
-
+Bot.runCommand("3old")

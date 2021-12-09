@@ -19,4 +19,3 @@ if (use=="left"){
 Bot.sendMessage("*❌ Must Join All Channel*")
 Bot.runCommand("start2")
 }
-

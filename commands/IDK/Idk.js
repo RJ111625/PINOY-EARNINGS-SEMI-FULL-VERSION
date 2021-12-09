@@ -9,14 +9,9 @@
   aliases: 
 CMD*/
 
-
-
-
 var button = [[{title:"🎙️Broadcast Message✉️",command:"msgbroadcast"},{title:"🎙️Broadcast Photo",command:"/brphoto"} , {title: "Pota ka",command:"main_menu"}]]
 
 Bot.sendInlineKeyboard(button, "hi")
 
 if(params==button)
   removeKeyboardButton("")
-
-

@@ -17,4 +17,3 @@ caption: "*‼️ New PAYMENTPROOF From User With Photo.\n\n👤 User =* ["+user
 parse_mode: "Markdown" })
 Bot.sendMessage("*🌁 Image Succesfully Sended To Admin.*")
 Bot.runCommand("main_menu")
-

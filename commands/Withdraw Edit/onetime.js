@@ -34,11 +34,10 @@ if( wallet == undefined ){
 Bot.sendMessage("_❌ Wallet Not set_")
 Bot.runCommand("💼 Set Wallet")
 }else{
-if (balance.value() < 100){
-Bot.sendMessage("_❌ Kailangang Magkaroon ng At Least 100 PHP Sa Iyong Withdrawable Balance!_")
+if (balance.value() < 50){
+Bot.sendMessage("_❌ Kailangang Magkaroon ng At Least 50 PHP Sa Iyong Withdrawable Balance!_")
 }else{
 Bot.sendMessage("*📤 Enter Amount To Withdraw *")
 Bot.runCommand("Auto")
 }
 }}}}
-

@@ -32,4 +32,3 @@ Bot.runCommand("main_menu")}
 }else{
 Bot.sendMessage("*❌ACCESS DENIED❌*\n\nOnly Retailler Can Transfer Funds")
 Bot.runCommand("main_menu")}
-

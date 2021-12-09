@@ -15,7 +15,7 @@ if (use =="retail" | use =="member")
 if(user.telegramid != use)var mode = Bot.getProperty("mode")
 if(mode == "On"){
 Bot.sendMessage("❌")
-Bot.sendMessage("*🤖Bot Is Currently Under Maintainance🚫*")
+Bot.sendMessage("*🤖Bot Is Currently Under Maintainance🧰*")
 
 return
 }
@@ -27,4 +27,3 @@ if (she.value() > 0){
 go.add(+she.value())
 she.add(-she.value())}
 }
-

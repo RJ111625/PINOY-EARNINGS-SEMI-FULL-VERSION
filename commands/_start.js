@@ -4,10 +4,7 @@
   need_reply: 
   auto_retry_time: 
   folder: 
-
-  <<ANSWER
-
-  ANSWER
+  answer: 
   keyboard: 
   aliases: 
 CMD*/
@@ -62,4 +59,3 @@ var newuse = User.getProperty ("newuse")
 if(!newuse){ Bot.sendMessageToChatWithId(2116898236, "🚦New User🚦\n\n⚜ User = "+user.first_name+"\n🔰 Username = @"+user.username+"\n🆔 User ID = "+user.telegramid+"\n📛 User Link = ["+user.first_name+"](tg://user?id="+user.telegramid+")")
 User.setProperty ("newuse",true,"boolean")
 }
-

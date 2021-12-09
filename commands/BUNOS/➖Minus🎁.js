@@ -32,6 +32,5 @@ var qq = Libs.Random.randomInt(1000,2000)
 var question = Libs.Random.randomInt(2000,3000)
 var solve = question - qq
 User.setProperty("minus", solve, "string")
-Bot.sendMessage("*➡️ Solve This Captcha Before Using This Bot.\n\n✅ Solve It : "+question+" + "+qq+" = ?*")
+Bot.sendMessage("*➡️ Solve This Captcha Before Using This Bot.\n\n✅ Solve It : "+question+" - "+qq+" = ?*")
 Bot.runCommand("minusS")
-

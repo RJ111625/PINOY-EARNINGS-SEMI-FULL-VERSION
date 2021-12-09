@@ -6,7 +6,7 @@
   folder: Transfer
 
   <<ANSWER
-*EnterRecipient *_Telegram Id_* For Sending Balance.*
+*🆔Enter Recipient *_Telegram Id_* For Sending Balance.*
 
 *⚠️Wrong ID may Cause Lose of Balance⚠️*
 _Admins Are Not Responsible For it_

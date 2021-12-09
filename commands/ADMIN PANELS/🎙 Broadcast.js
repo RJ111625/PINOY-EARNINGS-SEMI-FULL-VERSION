@@ -1,9 +1,6 @@
 /*CMD
   command: 🎙 Broadcast
-
-  <<HELP
-
-  HELP
+  help: 
   need_reply: false
   auto_retry_time: 
   folder: ADMIN PANELS

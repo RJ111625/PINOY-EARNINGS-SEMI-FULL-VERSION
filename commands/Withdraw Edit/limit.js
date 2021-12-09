@@ -9,7 +9,6 @@
   aliases: 
 CMD*/
 
-
 function canRun(){
 var last_run_at = User.getProperty("lasttime_withdraw");
 if(!last_run_at){ return true }
@@ -29,4 +28,3 @@ Bot.runCommand("menu")
  }
 if(!canRun()){ return }
 Bot.runCommand("onetime")
-

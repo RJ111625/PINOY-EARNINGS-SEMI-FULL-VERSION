@@ -14,18 +14,23 @@
   aliases: 
 CMD*/
 
-let value = message;
+if(message < 10) {
+Bot.sendMessage("_🚧Minimum Amount For Transfer Is 10 PHP🚧_")
+Bot.runCommand("💸Transfer")
+}else{
+var value = message;
 var number = parseInt(value)
 if (!number) {
 Bot.sendMessage("_❌You Have Entered An Invalid Amount_")
 Bot.runCommand("💸Transfer")
 }else{
-
 var use = User.getProperty("status")
 if (use== "retail" | use== "admin" | use== "creator"){var balance = Libs.ResourcesLib.userRes("balance")
 var tgid = options.tgid
 if(message > balance.value()) {
 Bot.sendMessage("*⚠️ Insufficient Balance For This Transaction.\n\n📛 You Have Only "+balance.value()+" PHP.*")
+Bot.runCommand("💸Transfer")
+
 }else{
 var user_bal = Libs.ResourcesLib.anotherUserRes("balance" , tgid);
 var friend = Libs.ResourcesLib.anotherUserRes("balance",tgid)
@@ -36,5 +41,4 @@ Bot.sendMessageToChatWithId(tgid, "*📩 YOU HAVE RECEIVED A PHP FROM @"+user.us
 Bot.runCommand("main_menu")}
 }else{
 Bot.sendMessage("*❌ACCESS DENIED❌*\n\nOnly Retailler Can Transfer Funds")
-Bot.runCommand("main_menu")}}
-
+Bot.runCommand("main_menu")}}}

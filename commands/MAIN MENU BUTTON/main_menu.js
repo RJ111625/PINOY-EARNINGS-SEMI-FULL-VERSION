@@ -4,14 +4,12 @@
   need_reply: 
   auto_retry_time: 
   folder: MAIN MENU BUTTON
-
-  <<ANSWER
-
-  ANSWER
+  answer: 
   keyboard: 
   aliases: menu, main, menu, /menu, 🔙go back↩️
 CMD*/
 
+User.setProperty("widbalbethl", "false", "string");
 let stat = Bot.getProperty(""+user.telegramid+"")
 if (stat=="ban"){
 Bot.sendMessage("*You're Ban❌*")
@@ -30,14 +28,14 @@ Api.deleteMessage({
 message_id : request.message.message_id
 })
 }
-Bot.sendKeyboard("💰 Balance,📊 Statistics,\n👥 Referral,🧑🏻‍💻Admin,","*🗄️🄰🄽🄶 🄸🅈🄾🄽🄶 ＡＤＭＩＮ 🄼🄴🄽🅄🗄️*")
+Bot.sendKeyboard("🎮Games🎮,\n💰 Balance,📊 Statistics,\n👥 Referral,🧑🏻‍💻Admin,","*🗄️🄰🄽🄶 🄸🅈🄾🄽🄶 ＡＤＭＩＮ 🄼🄴🄽🅄🗄️*")
 }else{
 
 if ( use=="member" | use=="administrator")
-Bot.sendKeyboard("💰 Balance,📊 Statistics,\n👥 Referral,🎰 Bonuses,\n💼 Set Wallet,📞 Support", "*🗄️🄰🄽🄶 🄸🅈🄾🄽🄶 🄼🄴🄽🅄🗄️*")
+Bot.sendKeyboard("💰 Balance,📊 Statistics,\n👥 Referral,🎮Games🎮,🎰 Bonuses,\n💼 Set Wallet,📞 Support", "*🗄️🄰🄽🄶 🄸🅈🄾🄽🄶 🄼🄴🄽🅄🗄️*")
 }
 {
 if (use=="retail")
-Bot.sendKeyboard("💰 Balance,📊 Statistics,\n👥 Referral,🎰 Bonuses,📞Contact Admin", "*🌟ƦЄƬƛƖԼԼЄƦ MЄƝƲ*🌟")
+Bot.sendKeyboard("🎮Games🎮,\n💰 Balance,📊 Statistics,\n👥 Referral,🎰 Bonuses,📞Contact Admin", "*🌟ƦЄƬƛƖԼԼЄƦ MЄƝƲ*🌟")
 }
 }

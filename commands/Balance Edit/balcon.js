@@ -14,4 +14,3 @@ var balance = Libs.ResourcesLib.userRes("balance")
 var lib = Libs.ReferralLib
 var refList = lib.currentUser.refList.get()
 Bot.sendMessage("MemberBal "+user.first_name+"")
-

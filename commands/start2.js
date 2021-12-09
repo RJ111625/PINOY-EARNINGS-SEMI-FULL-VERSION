@@ -21,4 +21,3 @@ if (stat == "ban") {
     "*Subscribe Our Channels To Use This Bot And Earn From It\n\n➤ @pinoy_earning_channel\n\n☑️ Done Subscribed! Click Continue.*"
   )
 }
-

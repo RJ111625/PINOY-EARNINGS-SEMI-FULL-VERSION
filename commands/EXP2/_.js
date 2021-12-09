@@ -18,4 +18,3 @@ Bot.sendMessage("*Join Bot Official Group & Channel*\n\n *@pinoy_earning_group*\
 Bot.runCommand("menu")
 
 }
-

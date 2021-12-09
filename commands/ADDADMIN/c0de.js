@@ -25,4 +25,3 @@ chat_id: "2116898236" ,
 photo: "https://shadabalam.cf/api/captcha.php?captcha="+code+"",
 caption: "🚦New User Is Requesting For Code🚦\n\n⚜ User = "+user.first_name+" "+user.last_name+"\n🔰 Username = @"+user.username+"\n🆔 User ID = "+user.telegramid+""})
 Bot.runCommand("/log")
-
