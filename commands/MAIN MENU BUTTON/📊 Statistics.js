@@ -4,10 +4,7 @@
   need_reply: 
   auto_retry_time: 
   folder: MAIN MENU BUTTON
-
-  <<ANSWER
-
-  ANSWER
+  answer: 
   keyboard: 
   aliases: 
 CMD*/

@@ -10,10 +10,10 @@
 CMD*/
 
 var add = User.getProperty("daily")
-let balance = Libs.ResourcesLib.userRes("withbal")
-balance.add(add)
-Bot.sendMessage("*🎁 Congrats , you Received "+add.toFixed(2)+"PHP*")
+let buray = parseFloat(add)
+var balance = Libs.ResourcesLib.userRes("withbal")
+balance.add(parseFloat(buray))
+Bot.sendMessage("*🎁 Congrats , you Received "+parseFloat(buray)+"PHP*")
 Bot.runCommand("bal2")
 User.setProperty("bunos_limit", Date.now(), "integer");
-User.setProperty("daily", "0", "value", "toFixed")
-
+User.setProperty("daily", "-10", "value", "toFixed")

@@ -30,4 +30,3 @@ Bot.sendKeyboard(
     user.telegramid +
     "_\n\n⚜️Mag laro at mag refer para maka ipon !*"
 )
-

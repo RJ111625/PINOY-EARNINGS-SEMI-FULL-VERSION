@@ -20,4 +20,3 @@ let lib = Libs.ReferralLib
 var refList = lib.currentUser.refList.get();
 Bot.sendMessage(
     "*🔐 You Can't Withdraw Right Now. You Must Have Atleast 3 Referrals.\n\n💵 You have only *_"+refList+"_* Referral.*")
-

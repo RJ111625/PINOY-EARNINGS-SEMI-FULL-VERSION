@@ -6,7 +6,7 @@
   folder: Transfer
 
   <<ANSWER
-*EnterRecipient Telegram Id For Sending Balance.*
+*🆔Enter Recipient Telegram Id For Sending Balance.*
 
 *⚠️Wrong ID may Cause Lose of Balance⚠️*
 _Admins Are Not Responsible For it_

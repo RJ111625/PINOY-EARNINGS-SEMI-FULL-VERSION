@@ -14,8 +14,8 @@ withdrawn = parseFloat(withdrawn);
 var wallet = User.getProperty("wallet");
 var balance = Libs.ResourcesLib.userRes("withbal")
 let value = message;
-if(message < 100 ){
-Bot.sendMessage("_❌ Minimum Withdraw 100 PHP_")
+if(message < 50 ){
+Bot.sendMessage("_❌ Minimum Withdraw 50 PHP_")
 Bot.runCommand("📤 Withdraw");
 }else{
 var number = parseInt(value)
@@ -47,4 +47,3 @@ Bot.runCommand("bal2")
 var withdraw = Libs.ResourcesLib.anotherChatRes("withdraw", "global")
 withdraw.add(+message)
 }}}
-

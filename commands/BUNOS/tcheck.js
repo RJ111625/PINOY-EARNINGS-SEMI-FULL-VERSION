@@ -16,5 +16,3 @@ Bot.runCommand("TRY")
 Bot.sendMessage("*⚠️ Wrong Captcha! You have enter the wrong captcha value. Try again!*")
 Bot.runCommand("test")
 }
-
-

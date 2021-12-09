@@ -28,4 +28,3 @@ Bot.runCommand("main_menu")
        }
        if(!canRun()){ return }
       Bot.runCommand("1tb")
-       

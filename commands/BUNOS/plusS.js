@@ -24,4 +24,3 @@ User.setProperty("solve", "0", "string")
 Bot.runCommand("🎰 Bonuses")
 User.setProperty("solve_limit", Date.now(), "integer");
 }
-

@@ -21,4 +21,3 @@ if (stat == "ban") {
     "*Join Our Official Pinoy Earning Group To Use This Bot And Earn From It\n\n➤ @pinoy_earning_group\n\n☑️ Done Joining! Click ✅Joined.*"
   )
 }
-

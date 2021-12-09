@@ -5,7 +5,6 @@
   auto_retry_time: 
   folder: ADMIN PANELS
   answer: *🌌 Send Your Photo And Caption For Broadcast.*
-
   keyboard: 
   aliases: 
 CMD*/
